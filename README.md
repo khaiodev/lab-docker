@@ -1,7 +1,11 @@
 # lab-docker
 
-Login Docker Hub
+### Login Docker Hub
+```
 docker login -u {user}
+```
 
-Docker Build
-docker build -t NOMEIMAGE .
+### Docker Build
+```
+docker build -t nomeusuariogithub/repo:tag .
+```
