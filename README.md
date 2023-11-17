@@ -34,6 +34,7 @@ docker exec -it {idcontainer} /bin/bash
 ```
 docker container logs {idcontainer}
 ```
+
 ### Exemplo de aplicação de monitoramento
 ```
 docker run -d --name=grafana -p 3000:3000 grafana/grafana
@@ -43,6 +44,7 @@ docker run -d --name=grafana -p 3000:3000 grafana/grafana
 ```
 docker compose up -d
 ```
+
 ### Coletar Dockerfile de container
 ```
 alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"
