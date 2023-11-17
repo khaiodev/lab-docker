@@ -22,7 +22,7 @@ docker push {userdockerhub}/{repodockerhub}:{tagvalue}
 
 ### Docker Run
 ```
-docker run -dp 80:80 {image}:{tag}
+docker run -dp 80:80 -v /root:/var/www/imagesexemplos {image}:{tag}
 ```
 
 ### Acessar bash Container
