@@ -25,6 +25,16 @@ docker push {userdockerhub}/{repodockerhub}:{tagvalue}
 docker run -dp 80:80 {image}:{tag}
 ```
 
+### Acessar bash Container
+```
+docker exec -it {idcontainer} /bin/bash
+```
+
+### Logs do Container
+```
+docker container logs {idcontainer}
+```
+
 ### Exemplo de aplicação de monitoramento
 ```
 docker run -d --name=grafana -p 3000:3000 grafana/grafana

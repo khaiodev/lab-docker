@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Iniciar o servidor Nginx
+# Iniciar o servidor NGinx
 nginx -g "daemon off;"
