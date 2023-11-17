@@ -15,3 +15,7 @@ services:
       - "8080:80"
     volumes:
       - ./web/html:/usr/local/apache2/htdocs
+
+# Nao esquecer de criar os diretorios abaixo
+# mkdir -p nginx/html
+# mkdir -p web/html
