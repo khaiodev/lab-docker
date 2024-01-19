@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update
+apt-get update
+
 # Instalando libs dependentes
 apt-get install ca-certificates curl gnupg -y
 install -m 0755 -d /etc/apt/keyrings
